@@ -1,0 +1,15 @@
+{
+  "name": "@leehankue/root",
+  "private": true,
+  "scripts": {
+    "start": "lerna exec --scope @leehankue/app -- yarn start",
+    "build": "lerna exec --scope @leehankue/app -- yarn build"
+  },
+  "workspaces": {
+    "packages": ["packages/**"]
+  },
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
+  }
+}
