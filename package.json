@@ -3,8 +3,9 @@
   "private": true,
   "scripts": {
     "start": "lerna exec --scope @leehankue/app -- yarn start",
+    "build": "lerna exec --scope @leehankue/app -- yarn build",
     "start:test": "lerna exec --scope @leehankue/test -- yarn start",
-    "build": "lerna exec --scope @leehankue/app -- yarn build"
+    "build:test": "lerna exec --scope @leehankue/test -- yarn build"
   },
   "workspaces": {
     "packages": ["packages/**"]
